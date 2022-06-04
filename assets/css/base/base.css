@@ -1,0 +1,49 @@
+body {
+  font-family:"canada-type-gibson", sans-serif;
+  color:#ADA9A3;
+
+}
+
+.flex {
+  display:flex;
+}
+
+.items-center {
+  align-items:center;
+}
+
+.ovhidden {
+  overflow:hidden;
+}
+
+.uppercase {
+  text-transform:uppercase;
+}
+
+.text-center {
+  text-align:center;
+}
+
+.text-white {
+  color:white;
+}
+
+section {
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
+@media (min-width:900px) {
+  section {
+    padding-top:60px;
+    padding-bottom:60px;
+  }
+}
+
+p {
+  padding-bottom:30px;
+}
+
+p + p {
+  padding-bottom:40px;
+}

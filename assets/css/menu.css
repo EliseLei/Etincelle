@@ -1,0 +1,74 @@
+.main-menu {
+
+}
+
+/*** MENU MOBILE *****/
+
+@media (max-width:992px) {
+  .main-menu{
+    position: absolute;
+    left:-100%;
+    top:170px;
+    display:flex;
+    flex-direction:column;
+    z-index: 9999995;
+    width: 100%;
+  }
+
+  .main-menu ul li{
+    display:block;
+  }
+
+	.main-menu ul {
+		padding:0;
+	}
+
+  .main-menu li {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+  }
+
+  .btn-mobile {
+    color:white;
+    z-index:9999996;
+    flex-direction:column;
+    display: flex;
+    align-items: center;
+  }
+
+  .btn-mobile .btn-burger {
+    font-size:32px;
+    line-height: 100%;
+    text-align: center;
+    padding: 0.5rem 0rem;
+    width: 48px;
+		z-index: 9999996;
+    display:block;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .btn-mobile .fa-close {
+    color: #fff;
+  }
+
+  .menu-mobile-fond {
+    position: fixed;
+    left: -100%;
+    top:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,.85);
+    z-index: 9999994;
+  }
+}
+
+@media (min-width:992px) {
+  .btn-mobile {
+    display:none;
+  }
+}

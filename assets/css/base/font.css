@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'BrownhillScript';
+    src: url('../../fonts/BrownhillScript.eot');
+    src: url('../../fonts/BrownhillScript.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/BrownhillScript.woff2') format('woff2'),
+        url('../../fonts/BrownhillScript.woff') format('woff'),
+        url('../../fonts/BrownhillScript.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
