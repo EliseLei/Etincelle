@@ -1,5 +1,7 @@
 .header nav ul li {
   color:white;
+  letter-spacing:1px;
+  font-weight:500;
 }
 
 .header {
