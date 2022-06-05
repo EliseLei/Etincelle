@@ -35,7 +35,9 @@
   font-size:25px;
   text-transform:uppercase;
   padding-bottom:30px;
+  letter-spacing: 4px;
 }
+
 
 .box5050_reverse .box5050_contenu {
   padding-bottom:0;
@@ -46,6 +48,41 @@
 }
 
 @media (min-width:768px) {
+
+  .box5050 h2 {
+    position:relative;
+  }
+
+  .box5050 h2:before {
+    content:"";
+    width:40px;
+    background-repeat: no-repeat;
+    position:absolute;
+    top:0;
+    left:-40px;
+    height:40px;
+    background-image:url("../../assets/images/etoile.png");
+  }
+
+  .box5050_reverse h2 {
+    position:relative;
+  }
+
+  .box5050_reverse h2:before {
+    background-image:none;
+  }
+
+  .box5050_reverse h2:after {
+    content:"";
+    width:40px;
+    background-repeat: no-repeat;
+    position:absolute;
+    top:0;
+    right:-40px;
+    height:40px;
+    background-image:url("../../assets/images/etoile.png");
+  }
+
   .box5050_item {
     height: 100%;
     margin-top:0;
@@ -77,6 +114,12 @@
   }
 }
 
-@media (min-width:900px) {
+@media (min-width:1100px) {
+  .box5050 h2:before {
+    left:-60px;
+  }
 
+  .box5050_reverse h2:after {
+    right:-60px;
+  }
 }
