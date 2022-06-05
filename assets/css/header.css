@@ -92,6 +92,8 @@
 
   .header nav ul li {
     display:inline;
+    font-size:12px;
+    text-transform:uppercase;
     padding-right:15px;
   }
 }
