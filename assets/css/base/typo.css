@@ -1,0 +1,8 @@
+p {
+  padding-bottom:30px;
+  line-height:1.3;
+}
+
+p + p {
+  padding-bottom:40px;
+}

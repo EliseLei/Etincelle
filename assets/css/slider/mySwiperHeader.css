@@ -11,6 +11,9 @@
   left: 0;
 }
 
+.mySwiperHeader .swiper-pagination  {
+  bottom:36px;
+}
 
 .mySwiperHeader .swiper-pagination-bullet {
   background-color:white;

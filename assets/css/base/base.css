@@ -1,7 +1,13 @@
 body {
   font-family:"canada-type-gibson", sans-serif;
   color:#ADA9A3;
+  padding-bottom:72px; /** hauteur du bouton reserver sur mobile */
+}
 
+@media(min-width:992px) {
+  body {
+    padding-bottom:0;
+  }
 }
 
 .flex {
@@ -26,24 +32,4 @@ body {
 
 .text-white {
   color:white;
-}
-
-section {
-  padding-top:40px;
-  padding-bottom:40px;
-}
-
-@media (min-width:900px) {
-  section {
-    padding-top:60px;
-    padding-bottom:60px;
-  }
-}
-
-p {
-  padding-bottom:30px;
-}
-
-p + p {
-  padding-bottom:40px;
 }

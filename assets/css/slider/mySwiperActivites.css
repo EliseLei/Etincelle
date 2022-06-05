@@ -7,6 +7,14 @@
   padding-bottom: 30px;
 }
 
+.mySwiperActivites.swiper {
+  margin-bottom:30px;
+}
+
+.mySwiperActivites .swiper-pagination  {
+  bottom: -43px;
+}
+
 .mySwiperActivites img {
   width:100%;
   height:400px;
@@ -26,11 +34,11 @@
   left:15px;
 }
 
-.swiper-slide_contenu h3 {
+.mySwiperActivites .swiper-slide_contenu h3 {
   max-width:560px;
 }
 
-.swiper-slide_contenu p {
+.mySwiperActivites .swiper-slide_contenu p {
   margin-top:20px;
 }
 
@@ -81,6 +89,12 @@
   .mySwiperActivites .swiper-slide_contenu {
     max-width:560px;
   }
+
+  .mySwiperActivites.swiper {
+    overflow: initial;
+    margin-bottom:120px;
+  }
+
 
   .mySwiperActivites .swiper-slide {
     align-items: end;

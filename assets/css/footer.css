@@ -8,6 +8,10 @@
   justify-content: center;
 }
 
+.footer_bottom p {
+  padding-bottom:0;
+}
+
 .footer_logo {
   display:flex;
   flex-direction:column;
